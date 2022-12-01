@@ -23,7 +23,7 @@ waktu = random.randint(1, 3)
 if waktu == 1 :
     kalimat_3 = ("dan pada jumat ini ia sedang makan ")
 if waktu == 2 :
-    kalimat_3 = ("dan pada  sabtu ini ia sedang bersantai ")
+    kalimat_3 = ("dan pada sabtu ini ia sedang bersantai ")
 if waktu == 3 :
     kalimat_3 = ("dan pada minggu ini ia membersihkan halaman ")
 
