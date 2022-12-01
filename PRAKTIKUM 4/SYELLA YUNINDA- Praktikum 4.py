@@ -3,11 +3,11 @@ import random
 #Daftar ini memberikan gambaran tentang waktu acara.
 Kalimat_starter = random.randint(1, 3)
 if Kalimat_starter == 1 :
-    kalimat_1 = ("Pada hari jumat, ")
+    kalimat_1 = ("Pada sore hari, ")
 if Kalimat_starter == 2 :
-    kalimat_1 = ("Pada hari sabtu, ")
+    kalimat_1 = ("Pada pagi hari, ")
 if Kalimat_starter == 3 :
-    kalimat_1 = ("Pada hari minggu, ")
+    kalimat_1 = ("Pada malam hari, ")
 
 #Daftar ini menceritakan tentang karakter utama dari cerita ini.
 karakter = random.randint(1, 3)
@@ -21,11 +21,11 @@ if karakter == 3 :
 #Daftar ini menentukan hari yang tepat di mana beberapa insiden telah terjadi.
 waktu = random.randint(1, 3)
 if waktu == 1 :
-    kalimat_3 = ("dan pada malam ini ia sedang makan ")
+    kalimat_3 = ("dan pada jumat ini ia sedang makan ")
 if waktu == 2 :
-    kalimat_3 = ("dan pada  sore ini ia sedang bersantai ")
+    kalimat_3 = ("dan pada  sabtu ini ia sedang bersantai ")
 if waktu == 3 :
-    kalimat_3 = ("dan pada pagi ini ia membersihkan halaman ")
+    kalimat_3 = ("dan pada minggu ini ia membersihkan halaman ")
 
 #Daftar ini mendefinisikan plot cerita.
 story_plot = random.randint(1, 3)
